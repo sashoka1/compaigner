@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles 
+Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+<!--Following Layout Available in this application-->
+
+<definition name="layout1" template="/layouts/myLayout1.jsp">
+</definition>
+
+<definition name="layout2" template="/layouts/myLayout2.jsp">
+</definition>
+
+
+
+<!-- Using layout 1 -->
+
+<definition name="index" extends="layout1">
+<put-attribute name="title">Login Page</put-attribute>
+<put-attribute name="contents">/index.jsp</put-attribute>
+<put-attribute name="right">/forms/loginForm.jsp</put-attribute>
+</definition>
+
+<!-- ***************************** Using layout 2 ************************************** -->
+
+<definition name="welcome"   extends="layout2">
+<put-attribute name="title" value="Welcome Home Page"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/welcome.jsp"></put-attribute>
+</definition>
+
+
+<!-- ************** Group Mapping start ************* -->
+
+<definition name="addView"   extends="layout2">
+<put-attribute name="title" value="Add Group"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/group/groupAdd.jsp"></put-attribute>
+</definition>
+
+<definition name="groupAdd"   extends="layout2">
+<put-attribute name="title" value="Add Group"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/group/success.jsp"></put-attribute>
+</definition>
+
+<definition name="groupView"   extends="layout2">
+<put-attribute name="title" value="Group View"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/group/groupView.jsp"></put-attribute>
+</definition>
+
+<definition name="deleteView"   extends="layout2">
+<put-attribute name="title" value="Group Delete"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/group/groupDeleteView.jsp"></put-attribute>
+</definition>
+
+<definition name="groupDelete"   extends="layout2">
+<put-attribute name="title" value="Group Delete"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/group/groupDeleteView.jsp"></put-attribute>
+</definition>
+
+<!-- ************** Group Mapping End ************* -->
+
+
+<!-- ************** Member Mapping start ************* -->
+
+<definition name="memberAddView"   extends="layout2">
+<put-attribute name="title" value="Add Member"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/member/memberAddView.jsp"></put-attribute>
+</definition>
+
+<definition name="memberView"   extends="layout2">
+<put-attribute name="title" value="Add Member"></put-attribute>
+<put-attribute name="left">/leftMenus/leftMenu.jsp</put-attribute>
+<put-attribute name="contents" value="/views/member/memberView.jsp"></put-attribute>
+</definition>
+
+
+<!-- ************** Member Mapping End ************* -->
+
+</tiles-definitions>

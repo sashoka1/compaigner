@@ -1,0 +1,164 @@
+/* Text Formatting */
+#tf {
+    color: black;
+    font: 14px/1.5 Verdana,Arial,Sans-Serif;
+    text-align: justify;
+}
+
+#heading1 {
+    color: #610B38;
+    font-family: erdana,helvetica,arial,sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+#heading2 {
+    background-color: #EBEBEB;
+    color: green;
+    font-family: erdana,helvetica,arial,sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 0 0 0 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pptImages img{
+	width:650px;
+}
+
+
+hr {
+    background-color: #D4D4D4;
+    border: 0 none;
+    clear: both;
+    color: #D4D4D4;
+    height: 1px;
+}
+
+.next a{
+float: right;
+color: blue;
+padding: 4px 11px;
+text-decoration: none;
+border: 1px dotted blue;
+}
+
+#uprf {
+    background-color: #FFFFFF;
+    border: 1px solid pink;
+    box-shadow: 15px 20px 10px #888888;
+    float: right;
+    font-style: italic;
+    margin-right: 30px;
+    margin-top: 5px;
+    outline: medium double pink;
+    padding: 8px;
+    width: 200px;
+}
+
+
+/* Index page Topics List */
+
+#homecontent {
+    background-color: #FFFFFF;
+    border: 1px solid pink;
+    box-shadow: 10px 10px 10px #888888;
+    float: left;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom:20px;
+    padding: 10px;
+    width: 28%;
+}
+
+#homecontent1 {
+    background-color: #FFFFFF;
+    border: 1px solid pink;
+    box-shadow: 10px 10px 10px #888888;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 28%;
+    margin-bottom:20px;
+    height: 400px;
+}
+
+#h3home {
+    background-color: #3090C7;
+    color: white;
+    font: 22px/1 times new roman;
+    padding: 5px;
+}
+
+.codeblock {
+    background: none repeat scroll 0 0 #F8F8F5;
+    border: 1px solid #D5DDC6;
+    box-shadow: 5px 3px 10px #D4D4D4;
+    font-family: verdana;
+    margin: 5px 0 10px;
+    padding: 0;
+}
+
+
+.dp-highlighter {
+    margin: 8px 0 !important;
+    overflow: auto;
+    padding-top: 0;
+    width: 99%;
+}
+
+.dp-highlighter .bar {
+    padding-left: 45px;
+}
+
+.codeblock {
+    font-family: verdana;
+}
+
+
+
+
+
+
+
+/* For Table Formatting */
+
+table.list th,table.list td{
+	border:1px solid #d4d4d4;padding:5px;padding-top:7px;padding-bottom:7px;vertical-align:top;text-align:left;
+}
+
+table.list{
+	border-collapse:collapse;width:75%;
+}
+
+table.list tr:nth-child(odd)	{background-color:#FFFF99;}
+table.list tr:nth-child(even)	{background-color:#ffffff;}
+
+table.list tr.fixzebra			{background-color:#FFFF99;}
+
+table.list th{
+	color:#ffffff;background-color:#3D5998;border:1px solid #555555;font-size:12px;padding:3px;vertical-align:top;text-align:left;
+}
+
+table.list th a:link,table.list th a:visited{
+	color:#ffffff;
+}
+
+table.list th a:hover,table.list th a:active{
+	color:#EE872A;
+}
+
+table.list td{
+	border:1px solid #d4d4d4;padding:5px;padding-top:5px;padding-bottom:5px;vertical-align:top;
+}
+
+table.list 
+{
+vertical-align:bottom;
+}
+
